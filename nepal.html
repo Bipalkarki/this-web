@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bipal Karki | Full Stack Developer 💻❤️</title>
+
+  <!-- ✅ Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ✅ Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-gray-900 bg-gray-50">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 w-full bg-white shadow z-50">
+    <nav class="flex justify-between items-center container py-3">
+      <div>
+        <img class="h-[60px] rounded-md"
+          src="https://www.travelandleisure.com/thmb/KLPvXakEKLGE5AY2jVyovl3Md1k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iceland-BEAUTCONT1021-b1aeafa7ac2847a484cbca48d3172b6c.jpg"
+          alt="Logo" />
+      </div>
+
+      <ul class="hidden md:flex gap-10 text-gray-700 font-medium">
+        <li><a href="#home" class="hover:text-red-500">Home</a></li>
+        <li><a href="#about" class="hover:text-red-500">About</a></li>
+        <li><a href="#services" class="hover:text-red-500">Services</a></li>
+        <li><a href="#portfolio" class="hover:text-red-500">Portfolio</a></li>
+        <li><a href="#blog" class="hover:text-red-500">Blog</a></li>
+      </ul>
+
+      <a href="#contact" class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition">
+        Get in Touch
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main id="home" class="pt-[90px]">
+    <section class="text-white relative"
+      style="background-image: url('https://www.travelandleisure.com/thmb/KLPvXakEKLGE5AY2jVyovl3Md1k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iceland-BEAUTCONT1021-b1aeafa7ac2847a484cbca48d3172b6c.jpg'); background-size: cover; background-position: center;">
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div class="container relative flex flex-col justify-center items-center h-[90vh] text-center">
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+          <br />
+          
+          <span class="text-white">Hey Hena 💖</span>
+        </h1>
+
+        <p class="text-lg md:text-xl max-w-2xl text-gray-200 mb-8">
+          “I know I messed up, and I’m not asking you to forget it instantly — but I’m asking you to remember how much I care.”
+        </p>
+         <p class="text-lg md:text-xl max-w-2xl text-gray-200 mb-8">
+            “Sometimes silence says things words can’t — but I’d rather talk and fix things than let distance grow.”
+        </p>
+           <p class="text-lg md:text-xl max-w-2xl text-gray-200 mb-8">
+               “Even the moon misses the sun sometimes, but they always find their way back — maybe we can too.
+        </p>
+         <p class="text-lg md:text-xl max-w-2xl text-gray-200 mb-8">
+            “I don’t want someone new, I just want a new start with you.”
+        </p>
+        <a href="#services"
+          class="bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full transition font-semibold">
+          Discover My World 🌍
+        </a>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-20 bg-gray-100">
+      <div class="container">
+        <h2 class="text-4xl font-bold text-center text-red-500 mb-12">My Skills 🔧</h2>
+
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
+          <div class="text-center bg-white p-10 shadow-md rounded-xl hover:shadow-lg transition">
+            <i class="fa-solid fa-laptop-code text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Frontend Magic</h3>
+            <p>I design beautiful, responsive websites with clean UI and smooth vibes.</p>
+          </div>
+
+          <div class="text-center bg-white p-10 shadow-md rounded-xl hover:shadow-lg transition">
+            <i class="fa-solid fa-server text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Backend Power</h3>
+            <p>Node, Express, and databases — I make logic come alive behind the scenes.</p>
+          </div>
+
+          <div class="text-center bg-white p-10 shadow-md rounded-xl hover:shadow-lg transition">
+            <i class="fa-solid fa-heart text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Heart in Code</h3>
+            <p>Every project I make carries a little emotion — because even code can feel 💖.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white text-center py-6">
+    <p>© 2025 Bipal Karki — Crafted with ❤️ for Hena.</p>
+  </footer>
+
+</body>
+</html>
